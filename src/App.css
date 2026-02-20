@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #836767;
+  color: grey;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background: #f4b1ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.whatsapp-btn {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+}
